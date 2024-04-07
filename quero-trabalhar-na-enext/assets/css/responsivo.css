@@ -304,3 +304,30 @@
         margin-left: 5px;
     }
 }
+
+@media (max-width: 532px) {
+    footer {
+        width: 100%;
+    }
+
+    .formemail{
+        margin: 0 auto;
+    }
+
+    .formemail form {
+        width: 70%;
+    }
+
+    .formemail  button {
+       margin-left: 250px;
+    }
+
+    .menumobile .pesquisa {
+        margin-left: 70px;
+        display: flex;
+    }
+
+    .logo {
+        width: 90%;
+    }
+}
