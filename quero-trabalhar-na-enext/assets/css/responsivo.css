@@ -1,0 +1,306 @@
+/* MENU */
+
+@media screen and (max-width: 672px) {
+
+    .cabecalho {
+        display: none;
+    }
+
+.menumobile .cabecalho {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+
+    .menuicon {
+        width: 50%;
+        margin: 0;
+        margin-top: -60px;
+        display: block;
+    
+    }
+
+    .menumobile {
+        width: 100%;
+        background-color: white;
+        height: 90%;
+        z-index: 9;
+    }
+
+    .menuicon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .pesquisa {
+        display: none;
+        margin-left: 100px;
+    }
+    
+    .logo a,span {
+        margin-left: 140px;
+        text-align: center;
+    }
+
+  
+
+    .menumobile .cabecalho  {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        padding-bottom: 1.5rem;
+    }
+
+    .menumobile .pesquisa {
+        display: block;
+        padding: 1rem 2rem;
+        margin-left: 200px;
+
+    }
+
+    .menumobile .pesquisa input {
+        width: 100%;
+    }
+
+    .open {
+        display: block;
+    }
+    
+
+    
+
+    .cabecalho li:hover {
+        background-color: #422a53;
+        width: 100%;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+    }
+    
+   
+    .text {
+        display: none;
+    }
+
+    .formemail  {
+        margin-left: -10px;
+    }
+
+    .formemail span {
+        margin: 0;
+    }
+
+   
+    .textoprincipal h7 {
+        display: flex; 
+        justify-content: center;
+    }
+
+    .pocoes { 
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+
+    
+
+    .subtitulo span {
+        width: 90%;
+        margin-left: 0px;
+    }
+}
+
+/* Responsivo */
+
+@media (max-width: 1668px) {
+     .formemail {
+        margin-left: 800px;
+    }
+}
+
+@media (max-width: 880px) {
+    .formemail {
+        display: flex;
+        margin-left: 60px;
+        padding-top: 200px;
+    }
+
+    form {
+        z-index: 9;
+    }
+    .text {
+        display: none;
+    }
+
+    .iconesredes img {
+        margin-top: 100px;
+    }
+
+    .iconesredes {
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .pesquisa  {
+        margin-left: 400px;
+    }
+
+
+}
+
+@media (max-width: 1374px) {
+    .formemail {
+        margin-left: 500px;
+    }
+
+    .text {
+        width: 50%;
+    }
+
+    .iconesredes {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1073px) {
+    .formemail {
+        display: flex;
+        margin-left: 60px;
+        padding-top: 200px;
+    }
+
+    form {
+        z-index: 9;
+    }
+    .text {
+        display: none;
+    }
+
+    .iconesredes img {
+        margin-top: 100px;
+    }
+
+    .iconesredes {
+        width: 50%;
+        margin-right: 10px;
+        margin-left: 90px;
+    }
+
+    .pesquisa  {
+        margin-left: 400px;
+    }
+}
+
+@media(max-width: 815px) {
+    .pesquisa {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+
+    .pocoes {
+        grid-template-columns: repeat(2,2fr);
+    }
+
+    .logo {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 542px) {
+    .logo {
+        width: 100%;
+        display: flex;
+        margin-left: 10px;
+    }
+
+  
+
+    .formemail {
+        
+        margin-right: 250px;
+    }
+} 
+
+@media (max-width: 656px) {
+    .formemail {
+        margin: 0px;
+        padding-top: 20px;
+    }
+
+    .formemail form {
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+
+    .pocoes{
+        width: 100%;
+        margin-right: 50px;
+    }
+    
+    .menumobile .logo {
+        display: none;
+    }
+
+
+    .menumobile .cabecalho {
+       width:100%
+    }
+
+    .logo a, strong {
+        margin-left: 50px;
+    }
+
+    .logo strong {
+        margin-left: 10px;
+    }
+
+    .logo span {
+        width: 100%;
+        margin: 0;
+        display: none;
+    }
+
+    .subtitulo {
+        width: 100%;
+        margin-right: 500px;
+        padding: 0;
+        padding-top: 20px;
+        margin: 0;
+        
+    }
+
+    .menumobile .pesquisa  {
+        margin-left: 150px;
+        display: flex;
+    }
+
+    .pesquisa i {
+        width: 5%;
+    }
+
+    .pocoes  {
+        width: 90%;
+        margin-left: -20px;
+      
+    }
+
+    .pocoes strong {
+        margin: 0;
+        display: inline;
+    }
+    
+    .pocoes span {
+        width: 100%;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .iconesredes {
+        width: 80%;
+        margin-left: 5px;
+    }
+}

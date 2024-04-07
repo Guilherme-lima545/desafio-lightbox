@@ -1,0 +1,382 @@
+
+
+.logo a {
+    font-family: "Oswald";
+    font-weight: 20;
+    font-size: 40px;
+    color: orangered;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo strong {
+    font-weight: 400;
+}
+
+.logo span {
+    font-family: "PT Serif";
+    font-style: italic;
+    color: #523468;
+    display: flex;
+    justify-content: baseline;
+}
+
+.logo span::before { 
+    content: "";
+    width: 2%;
+    margin-top: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+    height: 1px;
+    background-color: gray;
+}
+
+.logo span::after {
+    content: "";
+    width: 2%;
+    margin-top: 9px;
+    margin-left: 3px;
+    height: 1px;
+    background-color: gray;
+}
+
+.pesquisa  {
+    margin: 0;
+    margin-left: 450px;
+    margin-top: -50px;
+    padding-bottom: 70px;
+    width: 200px;
+}
+
+.pesquisa input {
+    
+    width: 400px;
+    height: 39px;
+    text-align: center;
+}
+
+.pesquisa input {
+    outline: none;
+}
+
+.pesquisa i {
+    position: absolute;
+    color: orangered;
+    width: 400px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.cabecalho {
+    background-color:#523468;
+    width: 100%;
+    height: 70px;
+    list-style: none;
+}
+
+.cabecalho li a {
+    font-family: "Pt Serif";
+    font-style: italic;
+    color: white;
+}
+
+.cabecalho li {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 25px;
+}
+
+.cabecalho li:hover {
+    background-color: #422a53;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.textoprincipal {
+    padding: 30px;
+}
+
+.textoprincipal h7 {
+    font-family: "PT Serif";
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.pocoes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 20px;
+    margin-right: 70px;
+}
+
+
+
+.pocoes img {
+    width: 90%;
+    margin-left: 30px;
+    padding: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+.pocoes span {
+    display: flex;
+    justify-content: center;
+    font-family: "PT Serif";
+    font-weight: bold;
+    
+}
+
+.pocoes strong {
+margin: 10px;
+margin-top: 0px;
+justify-content: center;
+color: orangered;
+}
+
+
+
+footer {
+    background-color: #e6e6e6;
+    margin-top: 90px;
+}
+
+
+
+.text {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    font-family: "Oswald";
+    font-weight: 300;
+    color: orangered;
+    font-size: 40px;
+    margin-right: 900px;
+    padding: 50px;
+}
+
+
+.iconesredes  img {
+    width: 50%;
+}
+
+.iconesredes {
+    width:  30%;
+}
+
+
+.iconesredes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-right: 550px;
+}
+
+.facebook img {
+    border-radius: 30px;
+}
+
+
+
+.subtitulo {
+    width: 50%;
+    font-family: "PT serif";
+    color: #8c989c;
+    margin: 0;
+    padding: 50px 120px 0px;
+}
+
+.formemail {
+    width: 520px;
+    height: 300px;
+    margin-left: 1200px;
+    margin-top: -200px;
+
+}   
+
+.formemail form {
+    background-color: white;
+    height: 200px;
+    font-family: "PT Serif";
+    border-radius: 10px;
+}
+
+.formemail label {
+    width: 100%;
+    display: flex;
+    font-family: "PT Serif";
+    font-style: italic;
+    font-size: 22px;
+    padding: 30px 20px 20px;
+    text-align: center;
+}
+
+.formemail span {
+    display: flex;
+    font-family: "PT Serif";
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.formemail input {
+    width: 60%;
+    height: 30px;
+    outline: none;
+
+}
+
+.formemail input {
+    display: flex;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+.formemail button {
+    display: flex;
+    width: 25%;
+    height: 30px;
+    margin-left: 350px;
+    margin-top: -32px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    background-color: orangered;
+    color: white;
+    outline: none;
+
+}
+
+.menuicon {
+    z-index: 9;
+    size: 10px;
+    display: none;
+}
+
+.menuicon img {
+    bottom: 30px;
+}
+
+
+.menumobile {
+    display: none;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .lightbox-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80%;
+  }
+  
+  .close {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .conteudo {
+    background-color: white;
+    width: 880px;
+    height: 527px;
+    margin-top: 300px;
+    font-family: "PT Serif";
+    font-size: 20px;
+  }
+
+
+  .conteudo img {
+    width: 50%;
+    float: left;
+    display: flex;
+    margin-left: 10px;
+  }
+
+.conteudo h1 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.conteudo ul {
+    list-style: none;
+}
+
+.conteudo h2 {
+    padding: 10px;
+}
+
+.conteudo span {
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    font-weight: lighter;
+    margin: 0px 70px 0px 0px;
+    
+}
+
+.conteudo h3 {
+    padding: 10px;
+}
+
+.conteudo ul {
+    padding: 10px;
+}
+
+
+.conteudo strong {
+    margin: 0;
+}
+
+.conteudo button {
+    display: flex;
+    width: 90px;
+    height: 30px;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "PT Sans";
+    font-weight: 10px;
+    text-transform: uppercase;
+    background-color: orangered;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.conteudo button {
+    margin-left: 0px;
+    
+}
