@@ -306,20 +306,19 @@
 }
 
 @media (max-width: 532px) {
-    footer {
-        width: 100%;
-    }
 
-    .formemail{
-        margin: 0 auto;
-    }
+   .formemail {
+    width: 480px;
+   }
 
     .formemail form {
         width: 70%;
+        background-color: white;
     }
 
     .formemail  button {
        margin-left: 250px;
+    
     }
 
     .menumobile .pesquisa {
