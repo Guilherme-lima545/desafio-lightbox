@@ -303,6 +303,30 @@
         width: 80%;
         margin-left: 5px;
     }
+
+    .conteudo {
+        width: 50%;
+        height: 687px;
+        margin-top: 160px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .conteudo img {
+        width: 60%;
+        display: flex;
+        float: inline-start;
+        
+    }
+
+    .conteudo span {
+        margin: 0;
+    }
+
+    .conteudo button {
+        margin-left: 110px;
+    }
+
 }
 
 @media (max-width: 532px) {
@@ -329,4 +353,12 @@
     .logo {
         width: 90%;
     }
+}
+
+@media (max-width: 408px) {
+    .conteudo button {
+        margin-left: 30px;
+    }
+
+    
 }
